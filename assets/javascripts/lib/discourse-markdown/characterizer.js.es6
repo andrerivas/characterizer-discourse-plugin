@@ -7,10 +7,10 @@ registerOption((siteSettings, opts) => {
 
 function characterizer(text, opts) {
   //const abbreviationCouples = list.split("|").map(couple => couple.split(":"));
+  text = text.replace(/rapp/ig, "<a href='/users/sean' class='mention'>Rapp</a>");
+	text = text.replace(/nasd/ig, "<a href='/users/greg' class='mention'>NasD Axe</a>");
+	text = text.replace(/BE/g, "<a href='/users/keith' class='mention'>Browneye</a>");
 
-	text = text.replace('Rapp', "<a href='/users/sean' class='mention'>Rapp</a>");
-	text = text.replace('NasD', "<a href='/users/greg' class='mention'>NasD</a>");
-	
   return text;
 };
 
@@ -20,5 +20,4 @@ export function setup(helper) {
     return characterizer(text, helper.getOptions());
   });
   
-  //helper.inlineReplace('Rapp', text => ['a', {href: '/users/sean', class: 'mention'}, 'Rapp']);
-}
+};
