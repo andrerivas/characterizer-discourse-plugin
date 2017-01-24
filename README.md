@@ -1,0 +1,1 @@
+# characterizer-discourse-plugin

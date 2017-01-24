@@ -1,0 +1,4 @@
+en:
+  site_settings:
+    characterizer_plugin_enabled: 'Enable characterizer plugin globally?'
+    characterizer_plugin_list: 'Character list.'

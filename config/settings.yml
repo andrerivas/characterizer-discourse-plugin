@@ -1,0 +1,7 @@
+plugins:
+  characterizer_plugin_enabled:
+    default: true
+    client: true
+  characterizer_name_list:
+    default: greg:NasD Axe|sean:Rapp|keith:Browneye
+    client: true
