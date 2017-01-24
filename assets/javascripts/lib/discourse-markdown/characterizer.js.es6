@@ -8,7 +8,7 @@ registerOption((siteSettings, opts) => {
 function characterizer(text, opts) {
   //const abbreviationCouples = list.split("|").map(couple => couple.split(":"));
 
-	text = text.replace('Rapp', "<a href='/users/andre.rivas' class='mention'>Rapp</a>");
+	text = text.replace('Rapp', "<a href='/users/andre' class='mention'>Rapp</a>");
 	
   return text;
 };
