@@ -1,13 +1,13 @@
 
 import { withPluginApi } from 'discourse/lib/plugin-api';
-//alert('outside init!');
+// This file may be totally unnecessary.
 
 export default {
   name: 'characterizer',
   initialize() {
-		//alert('init!');
+
      withPluginApi('0.1', api => {       
-       api.onPageChange(() => console.log('user navigated!'));
+       // not even going to do anything in here.
      });
 
   }
