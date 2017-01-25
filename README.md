@@ -17,3 +17,5 @@ a user, displays it nicely, and creates a mention to the actual user.
 There is currently a setting in the code with a list of users and characters.
 This is not in use at all right now. As a next step I may switch to using this 
 list first before trying to use a custom user field.
+
+Also, this only supports the newer dialect engine.
