@@ -17,7 +17,7 @@ function characterizer(text, opts) {
               .replace(/\b(gorp)\b/ig, "<a href='/users/tyler' class='mention'>Gorp</a>")
               .replace(/\b(licsmak)\b/ig, "<a href='/users/kevin' class='mention'>Licksmak</a>")
               .replace(/\b(gamora|gomorrah|gomorra|gomora|gamorah|gamorra)\b/ig, "<a href='/users/fatima' class='mention'>Gomora</a>")
-              .replace(/\b(DM|dungeon master|GM|game master)\b/ig, "<a href='/users/andre' class='mention'>Dungeon Master</a>");
+              .replace(/\b( DM|dungeon master|GM|game master)\b/ig, "<a href='/users/andre' class='mention'>Dungeon Master</a>");
 
   return text;
 };
