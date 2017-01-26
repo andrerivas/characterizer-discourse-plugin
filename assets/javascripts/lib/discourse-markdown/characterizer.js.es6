@@ -8,9 +8,9 @@ registerOption((siteSettings, opts) => {
 function characterizer(text, opts) {
   //const abbreviationCouples = list.split("|").map(couple => couple.split(":"));
   text = text.replace(/\b(rapp)|(Rapalapaskank)\b/ig, "<a href='/users/sean' class='mention'>Rapp</a>")
-              .replace(/\b(nasd|NasD Axe|tublak|tuglak|tublack)\b/ig, "<a href='/users/greg' class='mention'>NasD Axe</a>")
+              .replace(/\b(nasd|NasD Axe|tublak|tuglak|nasty axe|tublack)\b/ig, "<a href='/users/greg' class='mention'>NasD Axe</a>")
               .replace(/\b(browneye|brown eye|tight butthole)\b/ig, "<a href='/users/keith' class='mention'>Browneye</a>").replace(/\b(BE)\b/g, "<a href='/users/keith' class='mention'>Browneye</a>")
-              .replace(/\b(snaggs)\b/ig, "<a href='/users/christian' class='mention'>Snaggs</a>")
+              .replace(/\b(snaggs|snags)\b/ig, "<a href='/users/christian' class='mention'>Snaggs</a>")
               .replace(/\b(durem)\b/ig, "<a href='/users/strole' class='mention'>Durem</a>")
               .replace(/\b(midling)\b/ig, "<a href='/users/dave' class='mention'>Midling</a>")
               .replace(/\b(otto)\b/ig, "<a href='/users/dave' class='mention'>Otto</a>")
