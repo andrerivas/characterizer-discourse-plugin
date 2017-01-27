@@ -3,5 +3,20 @@ plugins:
     default: true
     client: true
   characterizer_name_list:
-    default: greg:NasD Axe|sean:Rapp|keith:Browneye
+    # regexString:options:username:linktext
+    # Splits characters on #
+    default: >
+      \b(rapp)|(Rapalapaskank)\b:ig:sean:Rapp#
+      \b(nasd|NasD Axe|tublak|tuglak|nasty axe|tublack)\b:ig:greg:NasD Axe#
+      \b(browneye|brown eye|tight butthole)\b:ig:keith:Browneye#
+      \b(BE)\b:g:keith:Browneye#
+      \b(snaggs|snags)\b:ig:christian:Snaggs#
+      \b(durem)\b:ig:strole:Durem#
+      \b(midling)\b:ig:dave:Midling#
+      \b(otto)\b:ig:dave:Otto#
+      \b(gorp)\b:ig:tyler:Gorp#
+      \b(licsmak|licksmak|licsmack|licksmack)\b:ig:kevin:Liksmak#
+      \b(gamora|gomorrah|gomorra|gomora|gamorah|gamorra)\b:ig:fatima:Gomora#
+      \b( DM|dungeon master|GM|game master)\b:ig:andre:Dungeon Master
+
     client: true
